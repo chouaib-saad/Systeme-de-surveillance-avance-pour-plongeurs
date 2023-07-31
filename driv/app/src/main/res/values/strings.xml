@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Divers</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="sample_message">Salut!</string>
+    <string name="prompt_msg">Type a message</string>
+    <string name="action_send">envoi</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_an_user_login">Already an user? Login</string>
+    <string name="advice">advice</string>
+    <string name="about_us">about us</string>
+    <string name="payment">payment</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="choices">
+        <item>Admin</item>
+        <item>User</item>
+    </string-array>
+    <string name="team_members_title">Team Members</string>
+
+
+    <string name="profile_image_description">Profile Image</string>
+
+
+    <string name="abidi_walid_name">Abidi Walid</string>
+
+    <string name="teacher_title">Supervising Teacher</string>
+
+    <string name="amal_aouadhi_description">Description for Amal Aouadhi</string>
+    <string name="sirine_abidi_description">Description for Sirine Abidi</string>
+
+
+    <string name="app_description">Our application is designed to monitor divers when they are in the sea and diving with the right frequencies. It provides real-time tracking and sends notifications to the concerned authorities in case of emergencies. The application also assists in quick rescue operations by utilizing a rescue balloon. Developed by Abidi Sirine and Amal Aouadhi under the supervision of our teacher Walid Hassairi and the company of Abidi Walid.</string>
+    <string name="company_title">Company: Abidi Walid</string>
+    <string name="walid_hassairi_name">walid hassairi</string>
+    <string name="walid_hassairi_description">Supervising Teacher: Walid Hassairi</string>
+    <string name="sirine_abidi_name">Sirine Abidi</string>
+    <string name="amal_aouadhi_name">Amal Aouadhi</string>
+    <string name="abidi_walid_description">description</string>
+
+
+</resources>

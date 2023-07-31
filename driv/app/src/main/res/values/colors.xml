@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="colorApp">#1976D2</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="switchThumbColor">#FFFFFF</color>
+    <color name="switchTrackColor">#CCCCCC</color>
+
+
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="pbm_background">#FF4081</color>
+    <color name="green">#27AE60</color>
+    <color name="lavender">#8692f7</color>
+    <color name="my_color">#RRGGBB</color>
+    <color name="greencolor">#47FC60</color>
+    <color name="redcolor">#FFA027</color>
+    <color name="light_purple">#E8E1E7</color>
+    <color name="colorback">#B5CAD7</color>
+
+    <color name="light_green">#50d050</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="blue">#0000FF</color>
+    <color name="oxygen_color">#F21F8BE6</color>
+
+    <color name="blue_2">#DD1C1C75</color>
+
+
+
+    <color name="white_transparent">#D7FFFFFF</color>
+    <color name="grey">#d2d2d2</color>
+
+
+
+
+
+
+
+    <color name="green_settings">#CD37884C</color>
+    <color name="red">#DDFF2600</color>
+    <color name="special_white">#EBFCFB</color>
+    <color name="special_grey">#9C9999</color>
+
+</resources>

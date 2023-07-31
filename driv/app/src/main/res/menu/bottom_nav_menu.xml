@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/heart"
+        android:title="HeartBeath"
+        android:icon="@drawable/heart_item"/>
+
+    <item
+        android:id="@+id/oximeter"
+        android:title="Oximeter"
+        android:icon="@drawable/oxymetre_item"/>
+
+    <item
+        android:id="@+id/temperature"
+        android:title="Temperature"
+        android:icon="@drawable/temperature_item"/>
+
+    <item
+        android:id="@+id/alert"
+        android:title="Alert"
+        android:icon="@drawable/alert_item"/>
+</menu>

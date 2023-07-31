@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "289331112042",
+    "project_id": "divers-58245",
+    "storage_bucket": "divers-58245.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289331112042:android:ed2ae09045405071c18213",
+        "android_client_info": {
+          "package_name": "com.example.divers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289331112042-e22c8l6cg9552kjrbdghauqkit5iv1os.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3HlQGod4j0opkFooxrEXEkuxiwNgbvwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289331112042-e22c8l6cg9552kjrbdghauqkit5iv1os.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

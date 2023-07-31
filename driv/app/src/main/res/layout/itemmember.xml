@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="14dp"
+    android:gravity="center_vertical">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardBackgroundColor="@color/lavender"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+
+
+        <ImageView
+            android:id="@+id/avatarImageView"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/profile_avatar"
+            android:contentDescription="TODO" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USER NAME"
+            android:textColor="@color/white_transparent"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/phoneuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+216"
+            android:textColor="@color/white_transparent"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/emailuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="user@gmail.com"
+            android:textColor="@color/white_transparent"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_item"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

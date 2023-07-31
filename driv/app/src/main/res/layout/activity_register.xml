@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    tools:context=".RegisterActivity">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="28dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Signup"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:textSize="38sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:inputType="textPersonName"
+                android:background="@drawable/custom_edittext"
+                android:paddingHorizontal="16dp"
+                android:hint="@string/full_name"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:autofillHints=""
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/signup_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/custom_edittext"
+                android:inputType="textEmailAddress"
+                android:hint="@string/email"
+                android:paddingHorizontal="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:autofillHints=""
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/signup_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/custom_edittext"
+                android:inputType="textPassword"
+                android:paddingHorizontal="16dp"
+                android:hint="@string/password"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:autofillHints=""
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="phone"
+                android:paddingStart="16dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="@string/phone"
+                android:paddingHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:autofillHints=""
+                tools:ignore="RtlSymmetry" />
+
+
+            <LinearLayout
+                android:id="@+id/myPhoto_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="16dp"
+                android:padding="5dp"
+                android:textSize="16sp"
+                android:onClick="selectImage"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:drawablePadding="8dp"
+                    tools:ignore="contentDescription"
+                    android:hint="@string/phone"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_camera"
+                    android:textColor="@color/black" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="pick a picture"/>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/signup_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/lavender"
+                app:cornerRadius="20dp"
+                android:text="Signup"
+                android:textSize="16sp"
+                android:layout_marginTop="36dp"
+                android:layout_marginHorizontal="32dp"
+                />
+
+            <TextView
+                android:id="@+id/loginRedirectText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Already a user ? Login"
+                android:textColor="@color/lavender"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
